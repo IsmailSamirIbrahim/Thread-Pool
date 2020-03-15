@@ -13,10 +13,7 @@ add_subdirectory(thread_pool)
 add_subdirectory(playground)
 
 # Organize Targets into folders
-set_target_properties(
-	pool
-	PROPERTIES FOLDER Pool
-)
+
 set_target_properties(
 	playground
 	PROPERTIES FOLDER Testing
